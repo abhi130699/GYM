@@ -268,13 +268,13 @@ video {
 #page3 h1{
     font-size: 74px;
     position: absolute;
-    top: -26%;
+    top: -30%;
     font-weight: 900;
     color: #000;
     -webkit-text-stroke: 2px #fff;
 }
 #footer{
-    height: 40vh;
+    min-height: 30vh;
     width: 100%;
     background-image: linear-gradient(to right top, #d72535, #d72539, #d7253d, #d72541, #d72545);
     position: relative;
@@ -445,9 +445,9 @@ opacity: 0;
     #scroller h4{
         font-size: 60px;
     }
-    #page2{
+    /* #page2{
         min-height: 100vh;
-    }
+    } */
     #about-us img{
     display: none;
     }
@@ -490,5 +490,10 @@ opacity: 0;
     #footer>img{
         width: 70%;
         margin-top: -220px;
+    }.plans-content{
+        flex-direction: column;
+    }
+    .plans{
+        margin-top: 200px;
     }
 }
